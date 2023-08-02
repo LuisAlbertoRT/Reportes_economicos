@@ -22,3 +22,67 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
+
+@media screen and (max-width:900px){
+    *{
+        /* Eliminar predeterminados */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .title {
+        /* Estilos de título h1 */
+        text-align: center;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .pdfview {
+        /* Centrado */
+        margin: auto;
+        display: block;
+        /* Tamaño */
+        width:500px;
+        height: 100vh;
+        /* Mejorar aspecto */
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    
+     
+}
+
+@media screen and (max-width:500px){
+  
+    *{
+        /* Eliminar predeterminados */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .title {
+        /* Estilos de título h1 */
+        text-align: center;
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .pdfview {
+        /* Centrado */
+        margin: auto;
+        display: block;
+        /* Tamaño */
+        width:00px;
+        height: 100vh;
+        /* Mejorar aspecto */
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    
+    
+}
